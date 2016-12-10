@@ -18,7 +18,10 @@
     "wrapper-webpack-plugin": "^0.1.11"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf bin lib",
+    "build": "tsc -p . ; webpack",
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "author": {
     "name": "Andrew Bradley",
