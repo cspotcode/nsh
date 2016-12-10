@@ -1,6 +1,6 @@
 {
   "name": "@cspotcode/nsh",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node-powered shell that combines JavaScript and traditional shell-scripting",
   "bin": {
     "nsh": "bin/cli.js"
