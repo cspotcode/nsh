@@ -8,10 +8,10 @@
   "main": "lib/index.js",
   "dependencies": {
     "cross-spawn": "^5.0.1",
-    "tslib": "^1.2.0",
-    "yargs": "^6.5.0"
+    "tslib": "^1.2.0"
   },
   "devDependencies": {
+    "@types/node": "0.0.2",
     "@types/yargs": "^6.3.3",
     "shebang-loader": "0.0.1",
     "typescript": "^2.1.4",
