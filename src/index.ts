@@ -1,0 +1,1 @@
+export default 'JavaScript API not implemented yet';

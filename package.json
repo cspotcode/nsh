@@ -1,0 +1,29 @@
+{
+  "name": "@cspotcode/nsh",
+  "version": "0.0.0",
+  "description": "Node-powered shell that combines JavaScript and traditional shell-scripting",
+  "bin": {
+    "nsh": "bin/cli.js"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "cross-spawn": "^5.0.1",
+    "tslib": "^1.2.0",
+    "yargs": "^6.5.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^6.3.3",
+    "shebang-loader": "0.0.1",
+    "typescript": "^2.1.4",
+    "wrapper-webpack-plugin": "^0.1.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Andrew Bradley",
+    "email": "cspotcode@gmail.com",
+    "url": "http://www.cspotcode.com"
+  },
+  "license": "MIT"
+}

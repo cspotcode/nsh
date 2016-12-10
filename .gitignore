@@ -1,0 +1,9 @@
+##<generate npm />
+
+##<for git>
+bin
+##</for>
+lib
+node_modules
+.npmignore
+npm-debug.log
